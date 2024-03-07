@@ -1,0 +1,39 @@
+name: cdtest
+description: A new Flutter project.
+version: 2.0.2+4
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^1.4.2
+  share_plus: ^7.2.2
+  shrink_sidemenu: ^2.0.0+2-null-safety
+  carousel_slider: ^4.1.1
+  url_launcher: ^6.1.5
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  mockito: null
+  test: null
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/local.json
+    - assets/confetti.json
+
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: assets/font/Acme-Regular.ttf
+          weight: 600
+    - family: Josefin Sans
+      fonts:
+        - asset: assets/font/JosefinSans-Regular.ttf
+          weight: 200
